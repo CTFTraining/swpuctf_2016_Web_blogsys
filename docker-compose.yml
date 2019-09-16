@@ -7,4 +7,5 @@ services:
     ports:
       - "5354:80"
     restart: always
-
+    environment:
+      - FLAG=flag{flag_test}
